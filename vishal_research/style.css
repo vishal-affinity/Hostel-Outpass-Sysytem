@@ -1,0 +1,224 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-anchor: none;
+}
+
+
+body{
+	background: url(srmap.jpg);
+	background-size: cover;
+	background-position: center;
+}
+nav{
+	height: 100px;
+	width: 100%;
+	background-color: #639C81;
+}
+
+.title{
+	font-size: 30px;
+	margin: 20px 0 10px 0;
+	padding: 10px;
+	position: relative;
+  }
+
+.logo{
+	width: 160px;
+	padding: 20px;
+}
+
+.login-box{
+	max-width: 700px;
+	float: none;
+	margin: 150px auto;
+}
+
+.login-left{
+	background:rgba(211, 211, 211, 0.7);
+	padding: 30px;
+}
+
+.login-right{
+	background: #fff;
+	padding: 30px;
+}
+
+.button1{
+	background-color: rgb(62, 85, 168);
+	padding: 10px;
+	height: 50px;
+	width: 175px;
+	border-radius: 10px;
+	border-color:lightgray;
+	margin-top: 175px;
+	margin-left: 550px;
+	}
+
+.button2{
+	background-color:rgb(62, 85, 168);
+		padding: 10px;
+		height: 50px;
+		width: 175px;
+		border-radius: 10px;
+		margin-top: 50px;
+		margin-left: 550px;
+		border-color: lightgray;
+}
+
+.Permission input[type="text"], input[type="text"]{
+			border: none;
+			border-bottom: 1px solid #fff;
+			background: transparent ;
+			outline: noone;
+			height: 40px;
+			font-size: 16px;
+}
+.Permission input{
+			width: 100%;
+			margin-bottom:20px ;
+}
+.Permission{
+			width: 360px;
+			height: 450px;
+			background: #D9D9D9;
+			color: #000;
+			top: 60%;
+			left: 50%;
+			margin-top: 40px;
+			position: absolute;
+			transform: translate(-50%,-50%);
+			box-sizing: border-box;
+			padding: 70px 30px;
+			border-radius: 10px;
+	
+}
+.button3{
+			width: 125px;
+			height: 45px;
+			background-color:lightgreen;
+			border-color: lightgreen;
+			cursor: pointer;
+			margin-left: 60px;
+			border-radius: 10px;
+}
+
+.title_add_student{
+			font-size: 30px;
+			margin: 20px 0 10px 0;
+			padding: 10px;
+			position: relative;
+}
+.title_add_student:before{
+			content: '';
+			position: absolute;
+			height: 4px;
+			width: 40px;
+			margin-top: 20px;
+			margin-left: 10px;
+			left: 0px;
+			bottom: 3px;
+			border-radius: 2px;
+			background: #918E53;
+}
+		  
+.add_student{
+			  width: 360px;
+			  height: 530px;
+			  background: #D9D9D9;
+			  color: #000;
+			  top: 60%;
+			  left: 50%;
+			  margin-top: 40px;
+			  position: absolute;
+			  transform: translate(-50%,-50%);
+			  box-sizing: border-box;
+			  padding: 70px 30px;
+			  border-radius: 10px;
+}
+		  
+		  
+.add_student p{
+			margin: 0;
+			padding: 0;
+			font-weight: bold;
+}
+.add_student input{
+			width: 100%;
+			margin-bottom:20px ;
+}
+.add_student input[type="text"], input[type="email"]{
+			border: none;
+			border-bottom: 1px solid #fff;
+			background: transparent ;
+			outline: noone;
+			height: 40px;
+			font-size: 16px;
+}
+.add_student input[type="text"], input[type="name"]{
+			border: none;
+			border-bottom: 1px solid #fff;
+			background: transparent ;
+			outline: noone;
+			height: 40px;
+			font-size: 16px;
+}
+.add_student input[type="text"], input[type="roll_number"]{
+			border: none;
+			border-bottom: 1px solid #fff;
+			background: transparent ;
+			outline: noone;
+			height: 40px;
+			font-size: 16px;
+}
+.add_student input[type="text"], input[type="mobile_number"]{
+			border: none;
+			border-bottom: 1px solid #fff;
+			background: transparent ;
+			outline: noone;
+			height: 40px;
+			font-size: 16px;
+}
+.add_student input[type="button"]{
+			border: none;
+			outline: none;
+			height: 40px;
+			background: #41794A;
+			color: #fff;
+			font-size: 18px;
+			border-radius: 20px;
+}
+.add_student input[type="button"]:hover{
+			cursor: pointer ;
+			background: #918E53;
+			color: #000;
+}
+		/*check permission*/
+.loginbox input[type="text"], input[type="datetime-local"]{
+			border: none;
+			border-bottom: 1px solid #fff;
+			background: transparent ;
+			outline: none;
+			height: 40px;
+			font-size: 16px;
+}
+
+h2{
+			padding-left: 500px;
+			padding-top: 150px;
+}
+		
+.Hii{
+			background-color: lightgray;
+}
+		
+
+.button4{
+			background-color: lightgreen;
+			height: 45px;
+			width: 100px;
+			color: white;
+			margin-left:550px;
+			margin-top: 50px;
+			border-radius: 20px;
+}
